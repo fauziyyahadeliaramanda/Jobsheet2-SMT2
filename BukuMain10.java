@@ -15,10 +15,13 @@ public class BukuMain10 {
         bk1.gantiHarga(60000);
         bk1.tampilInformasi();
 
-        Buku10 bk2 = new Buku10("Self Reward" , "Fauziyyah Adelia", 160, 20,  59000);
+        Buku10 bk2 = new Buku10("Self Reward" , "Maheera", 160, 29,  59000);
         bk2.terjual(11);
         bk2.tampilInformasi();
 
+        Buku10 bkFauziyyah = new Buku10("Gadis Kretek", "Fauziyyah", 200,10,90000);
+        bkFauziyyah.terjual(1);
+        bkFauziyyah.tampilInformasi();
 
 }
 }
